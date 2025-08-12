@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Wilproject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Wilproject.styles.css" asp-append-version="true" />
+    <style>
+        .bg-purple {
+            background-color: #6c63ff;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+            .text-white:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-purple text-white py-3">
+            <div class="d-flex align-items-center">
+                <h2 class="mb-0">Men Stand Tall</h2>
+                <div class-"ml-3">
+                    <a class="text-white mx-3" href="@Url.Page("Index")">DashBoard</a>
+                    <a class="text-white mx-3" href="@Url.Page("Projects")">Projects</a>
+                    <a class="text-white mx-3" href="@Url.Page("Calendar")">Calendar</a>
+                    <a class="text-white mx-3" href="@Url.Page("Tasks")">Tasks</a>
+                    <a class="text-white mx-3" href="@Url.Page("Messages")">Messages</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - Men Stand Tall - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

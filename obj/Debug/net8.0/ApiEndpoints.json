@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Wilproject.Controller.TasksController",
+    "Method": "Post",
+    "RelativePath": "api/Tasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "System.Threading.Tasks.Task",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
