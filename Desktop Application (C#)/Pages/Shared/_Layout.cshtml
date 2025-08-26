@@ -8,50 +8,78 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Wilproject.styles.css" asp-append-version="true" />
     <style>
-        .bg-purple {
-            background-color: #6c63ff;
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
         }
 
-        .text-white {
-            color: white;
+        /* Sidebar */
+        .sidebar {
+            width: 220px;
+            background-color: #4B0082; /* purple */
+            min-height: 100vh; /* full height */
+            padding: 20px 10px;
         }
 
-            .text-white:hover {
-                text-decoration: underline;
+            .sidebar h4 {
+                color: white;
+                margin-bottom: 20px;
             }
+
+            .sidebar a {
+                display: block;
+                color: white;
+                padding: 8px 12px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                transition: background 0.3s;
+            }
+
+                .sidebar a:hover {
+                    background-color: #6c63ff; /* lighter purple */
+                }
+
+        /* Main content */
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background: #f8f9fa;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container-fluid bg-purple text-white py-3">
-            <div class="d-flex align-items-center">
-                <h2 class="mb-0">Men Stand Tall</h2>
-                <div class-"ml-3">
-                    <a class="text-white mx-3" href="@Url.Page("Index")">DashBoard</a>
-                    <a class="text-white mx-3" href="@Url.Page("Projects")">Projects</a>
-                    <a class="text-white mx-3" href="@Url.Page("Calendar")">Calendar</a>
-                    <a class="text-white mx-3" href="@Url.Page("Tasks")">Tasks</a>
-                    <a class="text-white mx-3" href="@Url.Page("Messages")">Messages</a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h4>Menu</h4>
+            <a href="@Url.Page("/Index")">Dashboard</a>
+            <a href="@Url.Page("/Projects")">Projects</a>
+            <a href="@Url.Page("/Calendar")">Calendar</a>
+            <a href="@Url.Page("/Tasks")">Tasks</a>
+            <a href="@Url.Page("/Messages")">Messages</a>
+            <a href="@Url.Page("/Report")">Report</a>
+        </nav>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Men Stand Tall - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <!-- Main content -->
+        <div class="content">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+
+            @* <footer class="border-top footer text-muted text-center p-2">
+                &copy; 2025 - Men Stand Tall - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </footer> *@
         </div>
-    </footer>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

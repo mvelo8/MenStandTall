@@ -9,10 +9,26 @@
       "Wilproject/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.SignalR": "1.2.0",
-          "Microsoft.AspNetCore.SignalR.Client": "9.0.8"
+          "Microsoft.AspNetCore.SignalR.Client": "9.0.8",
+          "fullcalendar": "3.9.0",
+          "jQuery": "3.7.1",
+          "jQuery.Fullcalendar": "3.9.0"
         },
         "runtime": {
           "Wilproject.dll": {}
+        }
+      },
+      "fullcalendar/3.9.0": {
+        "dependencies": {
+          "Moment.js": "2.18.2",
+          "jQuery": "3.7.1"
+        }
+      },
+      "jQuery/3.7.1": {},
+      "jQuery.Fullcalendar/3.9.0": {
+        "dependencies": {
+          "Moment.js": "2.18.2",
+          "jQuery": "3.7.1"
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
@@ -364,6 +380,7 @@
           "System.Buffers": "4.6.0"
         }
       },
+      "Moment.js/2.18.2": {},
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -449,6 +466,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "fullcalendar/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lx1CYPPY8AGVtkDHKl+gjVjD2SKGBi3WC+gEU/qn848HRnO/po3KurcYoblr1Yyp6Iia8kXffYZy62adAHNj+A==",
+      "path": "fullcalendar/3.9.0",
+      "hashPath": "fullcalendar.3.9.0.nupkg.sha512"
+    },
+    "jQuery/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rF8hnQxmBMlIspf8VN72bALtmIpKx6hKRpUdTOkp/8JzfF8KgNqHut5lOy9kFGvFIStumCqJ+PBxpI9gxpRYfQ==",
+      "path": "jquery/3.7.1",
+      "hashPath": "jquery.3.7.1.nupkg.sha512"
+    },
+    "jQuery.Fullcalendar/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-soyfwNQ4ZCyJRi08TeC8t96fNbs+yfJblzvBIfAqv12B/UZ1WkioDo3PCO92qQLITvXyj4kSWSaxQFA99xQPww==",
+      "path": "jquery.fullcalendar/3.9.0",
+      "hashPath": "jquery.fullcalendar.3.9.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
       "type": "package",
@@ -715,6 +753,13 @@
       "sha512": "sha512-/M0wVg6tJUOHutWD3BMOUVZAioJVXe0tCpFiovzv0T9T12TBf4MnaHP0efO8TCr1a6O9RZgQeZ9Gdark8L9XdA==",
       "path": "microsoft.net.http.headers/2.3.0",
       "hashPath": "microsoft.net.http.headers.2.3.0.nupkg.sha512"
+    },
+    "Moment.js/2.18.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ev4okotpwL6hFslhcXwTdFGU/leceMehiME3fNoAr7IZKD6DHGcAgUfoQco+vAs92Dy4FaHpC07d6Y/17098+Q==",
+      "path": "moment.js/2.18.2",
+      "hashPath": "moment.js.2.18.2.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
