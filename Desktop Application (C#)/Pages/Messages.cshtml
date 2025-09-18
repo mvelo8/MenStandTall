@@ -1,4 +1,15 @@
-﻿@page
+﻿@* <!--
+TODO (Backend):
+
+- Connect this Messages section to the Messages page data.
+- When a user posts an announcement on the Messages page:
+    1. Save it to the database.
+    2. Fetch and display it here on the Dashboard automatically.
+- Ensure clicking "Post Announcement" redirects to the Messages page or opens a form,
+  and after posting, the new message should appear in this section without refreshing.
+--> *@
+
+@page
 @model Wilproject.Pages.MessagesModel
 @{
     ViewData["Title"] = "Your Messages";

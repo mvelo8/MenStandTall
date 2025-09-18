@@ -3,7 +3,24 @@
 @{
     ViewData["Title"] = "Projects";
 }
+@* <!--
+TODO (Backend):
 
+- When a new project is added, make sure it is saved to the database (using Entity Framework / ApplicationDbContext).
+- After saving, redirect back to the Projects page.
+- On the Projects page, load all projects from the database inside OnGet():
+
+    public void OnGet()
+    {
+        Projects = _context.Projects.ToList();
+    }
+
+- Bind the loaded Projects list to the UI so that each project appears as a card, for example:
+
+@foreach (var project in Model.Projects)
+{
+            <!-- display project info here -->
+} *@
 <div class="container mt-4">
     <h2 class="text-center mb-4">🌍 NGO Projects Overview</h2>
 
