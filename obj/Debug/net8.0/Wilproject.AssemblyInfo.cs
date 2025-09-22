@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream:obj/Debug/net8.0/Wilproject.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+903c4f0210a2cc1c020cb989dfba377407f4091e")]
+>>>>>>> Stashed changes:Desktop Application (C#)/obj/Debug/net8.0/Wilproject.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyProductAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
