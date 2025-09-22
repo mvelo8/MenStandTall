@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Downloads\\MenStandTall-main\\MenStandTall-main\\Desktop Application (C#)\\Wilproject.csproj": {}
+    "C:\\Users\\lab_services_student\\AndroidStudioProjects\\Prog-Prototype--master\\MenStandTall\\Desktop Application (C#)\\Wilproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Downloads\\MenStandTall-main\\MenStandTall-main\\Desktop Application (C#)\\Wilproject.csproj": {
+    "C:\\Users\\lab_services_student\\AndroidStudioProjects\\Prog-Prototype--master\\MenStandTall\\Desktop Application (C#)\\Wilproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Downloads\\MenStandTall-main\\MenStandTall-main\\Desktop Application (C#)\\Wilproject.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\AndroidStudioProjects\\Prog-Prototype--master\\MenStandTall\\Desktop Application (C#)\\Wilproject.csproj",
         "projectName": "Wilproject",
-        "projectPath": "C:\\Users\\lab_services_student\\Downloads\\MenStandTall-main\\MenStandTall-main\\Desktop Application (C#)\\Wilproject.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\AndroidStudioProjects\\Prog-Prototype--master\\MenStandTall\\Desktop Application (C#)\\Wilproject.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Downloads\\MenStandTall-main\\MenStandTall-main\\Desktop Application (C#)\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\AndroidStudioProjects\\Prog-Prototype--master\\MenStandTall\\Desktop Application (C#)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
