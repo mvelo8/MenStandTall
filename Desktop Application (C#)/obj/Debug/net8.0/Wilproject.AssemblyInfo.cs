@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f79f6b9fe5b5d5da78ac60d48aa43742432f0f82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wilproject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
